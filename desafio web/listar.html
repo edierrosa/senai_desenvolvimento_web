@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Lista de Vagas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,6 +14,12 @@
   </nav>
 
   <h1>Lista de Vagas Cadastradas</h1>
+
+  <div class="dashboard">
+    <p id="vagas-ocupadas">Vagas Ocupadas: 0</p>
+    <p id="vagas-disponiveis">Vagas Disponíveis: 20</p>
+  </div>
+
   <table>
     <thead>
       <tr>
@@ -23,29 +30,15 @@
         <th>Modelo</th>
         <th>Cor</th>
         <th>Vaga</th>
+        <th>Ações</th>
       </tr>
     </thead>
-    <tbody>
-            <tr>
-        <td>ABC-1234</td>
-        <td>João da Silva</td>
-        <td>101</td>
-        <td>A</td>
-        <td>Fiat Uno</td>
-        <td>Prata</td>
-        <td>12</td>
-      </tr>
-      <tr>
-        <td>XYZ-9876</td>
-        <td>Maria Oliveira</td>
-        <td>302</td>
-        <td>B</td>
-        <td>Honda Civic</td>
-        <td>Preto</td>
-        <td>8</td>
-      </tr>
-    </tbody>
+    <tbody></tbody>
   </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
